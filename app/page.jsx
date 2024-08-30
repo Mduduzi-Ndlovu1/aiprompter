@@ -1,3 +1,4 @@
+import Feed from "@components/Feed"
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
         <p className="desc text-center">
             This is a an open-source AI Prompting tool for modern world discovery, creation and sharing creative prompts.
         </p>
-        {/* feed */}
+        <Feed/>
     </section>
   )
 }

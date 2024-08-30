@@ -1,5 +1,6 @@
 import '@styles/globals.css'
-
+import Nav from '@components/Nav'
+import Provider from '@components/Provider'
 export const metatdata = {
     title: 'AIPrompter',
     description: 'Discover and Share AI Prompts',
@@ -13,6 +14,7 @@ const RootLayout = ({ children}) => {
             </div>
 
             <main className='app'>
+                <Nav/>
                 {children}
             </main>
         </body>
