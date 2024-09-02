@@ -12,6 +12,7 @@
     "bcrypt": "^5.1.1",
     "dotenv": "^16.4.5",
     "git-filter-repo": "^0.0.30",
+    "dotenv": "^16.4.5",
     "mongodb": "^6.8.0",
     "mongoose": "^8.6.0",
     "next": "14.2.7",
